@@ -15,7 +15,7 @@ local PlayerGui = Player:WaitForChild("PlayerGui")
 
 
 -- Library --
-local Resources = require(game:GetObjects("rbxassetid://13333096034")[1])()
+local Resources = game:GetObjects("rbxassetid://13333096034")[1]
 local Objects = {
 	Tab = Resources.Tab,
 	Element = Resources.Elements
